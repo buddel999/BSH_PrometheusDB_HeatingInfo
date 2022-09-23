@@ -2,6 +2,11 @@
 Script for providing bosch smart home heating related data to a prometheus database.
 Originally intended to create a temperature history visualization with [Grafana](https://grafana.com/).
 
+## Requirements
+The following librarys need to be installed for the script to work:
+- [boschshcpy](https://pypi.org/project/boschshcpy/)
+- [prometheus_client](https://pypi.org/project/prometheus-client/)
+
 ## Setup
 To use the script simply adjust the following variables in the main portion of the script:
 - ```BSH_CONTROLLER_IP```: Use it to set the IP of your Bosch smart home controller
